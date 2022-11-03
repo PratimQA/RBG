@@ -1,0 +1,3 @@
+pageObjects\LoginPage.class
+pageObjects\Gym_DetailsPage.class
+pageObjects\DashboardPage.class
