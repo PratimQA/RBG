@@ -1,0 +1,6 @@
+MyTestRunner\MyTestRunner.class
+parallel\LoginPageSteps.class
+parallel\DashboardPageSteps.class
+parallel\ParallelRun.class
+parallel\ApplicationHooks.class
+parallel\GymDetailsPageSteps.class
