@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 4 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Gym profile picture can be added but this not mandatory&quot;, &quot;Optional[Gym details feature]&quot;)">runScenario("Gym profile picture can be added but this not mandatory", "Optional[Gym details feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Select previous month for monthly recurring revenue growth&quot;, &quot;Optional[Dashboard feature]&quot;)">runScenario("Select previous month for monthly recurring revenue growth", "Optional[Dashboard feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;As a gym owner he/she should be able to add a product&quot;, &quot;Optional[Products feature]&quot;)">runScenario("As a gym owner he/she should be able to add a product", "Optional[Products feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;As a gym owner he/she should be able to add a program&quot;, &quot;Optional[Program feature]&quot;)">runScenario("As a gym owner he/she should be able to add a program", "Optional[Program feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Select previous month for additional revenue&quot;, &quot;Optional[Dashboard feature]&quot;)">runScenario("Select previous month for additional revenue", "Optional[Dashboard feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Appointment Page Title&quot;, &quot;Optional[Appointment feature]&quot;)">runScenario("Appointment Page Title", "Optional[Appointment feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Forgot Password link", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Create Appointment&quot;, &quot;Optional[Appointment feature]&quot;)">runScenario("Create Appointment", "Optional[Appointment feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login page title", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;As a gym owner he/she should be able to add product category&quot;, &quot;Optional[Products feature]&quot;)">runScenario("As a gym owner he/she should be able to add product category", "Optional[Products feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Dashboard page title&quot;, &quot;Optional[Dashboard feature]&quot;)">runScenario("Dashboard page title", "Optional[Dashboard feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;As a gym owner he/she should be able to add the gym details for first time&quot;, &quot;Optional[Gym details ...)">runScenario("As a gym owner he/she should be able to add the gym details for first time", "Optional[Gym details ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;As a gym owner once the details are added now i should only see the edit button&quot;, &quot;Optional[Gym det...)">runScenario("As a gym owner once the details are added now i should only see the edit button", "Optional[Gym det...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;As a gym owner he/she should be able to add program category&quot;, &quot;Optional[Program feature]&quot;)">runScenario("As a gym owner he/she should be able to add program category", "Optional[Program feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="parallel.ParallelRun" class="method navigator-link" hash-for-method="runScenario(&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login with correct credentials", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">parallel.ParallelRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Gym profile picture can be added but this not mandatory&quot;, &quot;Optional[Gym details feature]&quot;)">
+                  </a> <!-- runScenario("Gym profile picture can be added but this not mandatory", "Optional[Gym details feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Gym profile picture can be added but this not mandatory", "Optional[Gym details feature]")</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /home/ubuntu/Tier5QA/cat.jpg
+  (Session info: headless chrome=107.0.5304.108)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-5CH6N67&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PRATIM\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f5cb85107b6aee4eec2ca629c7721b3c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.pages.GymDetailsPage.uploadimagefile(GymDetailsPage.java:66)
+	at parallel.GymDetailsPageSteps.user_will_click_on_upload_and_select_any_png_or_jpg_file(GymDetailsPageSteps.java:106)
+	at ✽.User will click on upload and select any png or jpg file(file:///C:/Users/PRATIM/Downloads/RBG1-daily_automation/RBG1-daily_automation/RBG_Hybrid/src/test/resources/parallel/gymdetailspage.feature:24)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Select previous month for monthly recurring revenue growth&quot;, &quot;Optional[Dashboard feature]&quot;)">
+                  </a> <!-- runScenario("Select previous month for monthly recurring revenue growth", "Optional[Dashboard feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Select previous month for monthly recurring revenue growth", "Optional[Dashboard feature]")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;email&apos;]&quot;}
+  (Session info: headless chrome=107.0.5304.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-5CH6N67&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PRATIM\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f976068915f09818a719b6b6b91f685
+*** Element info: {Using=xpath, value=//input[@name=&apos;email&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.LoginPage.doLogin(LoginPage.java:48)
+	at parallel.DashboardPageSteps.user_has_already_logged_in_to_application(DashboardPageSteps.java:34)
+	at ✽.user has already logged in to application(file:///C:/Users/PRATIM/Downloads/RBG1-daily_automation/RBG1-daily_automation/RBG_Hybrid/src/test/resources/parallel/dashboardpage.feature:4)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;As a gym owner he/she should be able to add a product&quot;, &quot;Optional[Products feature]&quot;)">
+                  </a> <!-- runScenario("As a gym owner he/she should be able to add a product", "Optional[Products feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("As a gym owner he/she should be able to add a product", "Optional[Products feature]")</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /home/ubuntu/Tier5QA/cat.jpg
+  (Session info: headless chrome=107.0.5304.108)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-5CH6N67&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PRATIM\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 126e13fbc0f1b3ac06a9216f5cf6cf99
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.pages.ProductPage.enterproddetails(ProductPage.java:109)
+	at parallel.ProductPageSteps.enter_details_to_add_product(ProductPageSteps.java:107)
+	at ✽.enter details to add product(file:///C:/Users/PRATIM/Downloads/RBG1-daily_automation/RBG1-daily_automation/RBG_Hybrid/src/test/resources/parallel/productspage.feature:22)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;As a gym owner he/she should be able to add a program&quot;, &quot;Optional[Program feature]&quot;)">
+                  </a> <!-- runScenario("As a gym owner he/she should be able to add a program", "Optional[Program feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("As a gym owner he/she should be able to add a program", "Optional[Program feature]")</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /home/ubuntu/Tier5QA/cat.jpg
+  (Session info: headless chrome=107.0.5304.108)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-5CH6N67&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PRATIM\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c337717ee4052e99afa7cb2820f111d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.pages.ProgramPage.entercoursedetails(ProgramPage.java:111)
+	at parallel.ProgramPageSteps.enter_details_to_add_program(ProgramPageSteps.java:117)
+	at ✽.enter details to add program(file:///C:/Users/PRATIM/Downloads/RBG1-daily_automation/RBG1-daily_automation/RBG_Hybrid/src/test/resources/parallel/programpage.feature:22)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">parallel.ParallelRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Select previous month for additional revenue&quot;, &quot;Optional[Dashboard feature]&quot;)">
+                  </a> <!-- runScenario("Select previous month for additional revenue", "Optional[Dashboard feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Select previous month for additional revenue", "Optional[Dashboard feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Appointment Page Title&quot;, &quot;Optional[Appointment feature]&quot;)">
+                  </a> <!-- runScenario("Appointment Page Title", "Optional[Appointment feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Appointment Page Title", "Optional[Appointment feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Forgot Password link", "Optional[Login page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Forgot Password link", "Optional[Login page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create Appointment&quot;, &quot;Optional[Appointment feature]&quot;)">
+                  </a> <!-- runScenario("Create Appointment", "Optional[Appointment feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create Appointment", "Optional[Appointment feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Login page title", "Optional[Login page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login page title", "Optional[Login page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;As a gym owner he/she should be able to add product category&quot;, &quot;Optional[Products feature]&quot;)">
+                  </a> <!-- runScenario("As a gym owner he/she should be able to add product category", "Optional[Products feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("As a gym owner he/she should be able to add product category", "Optional[Products feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Dashboard page title&quot;, &quot;Optional[Dashboard feature]&quot;)">
+                  </a> <!-- runScenario("Dashboard page title", "Optional[Dashboard feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Dashboard page title", "Optional[Dashboard feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;As a gym owner he/she should be able to add the gym details for first time&quot;, &quot;Optional[Gym details ...)">
+                  </a> <!-- runScenario("As a gym owner he/she should be able to add the gym details for first time", "Optional[Gym details ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("As a gym owner he/she should be able to add the gym details for first time", "Optional[Gym details feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;As a gym owner once the details are added now i should only see the edit button&quot;, &quot;Optional[Gym det...)">
+                  </a> <!-- runScenario("As a gym owner once the details are added now i should only see the edit button", "Optional[Gym det...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("As a gym owner once the details are added now i should only see the edit button", "Optional[Gym details feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;As a gym owner he/she should be able to add program category&quot;, &quot;Optional[Program feature]&quot;)">
+                  </a> <!-- runScenario("As a gym owner he/she should be able to add program category", "Optional[Program feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("As a gym owner he/she should be able to add program category", "Optional[Program feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Login with correct credentials", "Optional[Login page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with correct credentials", "Optional[Login page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;parallel.ParallelRun&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'parallel.ParallelRun')
+data.setCell(0, 3, 57383);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'parallel.ParallelRun')
+data.setCell(1, 3, 57054);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'parallel.ParallelRun')
+data.setCell(2, 3, 38028);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'parallel.ParallelRun')
+data.setCell(3, 3, 37934);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'parallel.ParallelRun')
+data.setCell(4, 3, 36730);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'parallel.ParallelRun')
+data.setCell(5, 3, 28535);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'parallel.ParallelRun')
+data.setCell(6, 3, 28303);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'parallel.ParallelRun')
+data.setCell(7, 3, 27056);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'parallel.ParallelRun')
+data.setCell(8, 3, 19511);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'parallel.ParallelRun')
+data.setCell(9, 3, 14737);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'parallel.ParallelRun')
+data.setCell(10, 3, 13673);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'parallel.ParallelRun')
+data.setCell(11, 3, 8578);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'parallel.ParallelRun')
+data.setCell(12, 3, 5556);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'parallel.ParallelRun')
+data.setCell(13, 3, 5172);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'parallel.ParallelRun')
+data.setCell(14, 3, 3534);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">parallel.ParallelRun</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Appointment Page Title", "Optional[Appointment feature]")</span>
+                <span class="method-start">1710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create Appointment", "Optional[Appointment feature]")</span>
+                <span class="method-start">15390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Dashboard page title", "Optional[Dashboard feature]")</span>
+                <span class="method-start">23969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Select previous month for additional revenue", "Optional[Dashboard feature]")</span>
+                <span class="method-start">43481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Select previous month for monthly recurring revenue growth", "Optional[Dashboard feature]")</span>
+                <span class="method-start">81510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("As a gym owner he/she should be able to add the gym details for first time", "Optional[Gym details ...)</span>
+                <span class="method-start">85062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Gym profile picture can be added but this not mandatory", "Optional[Gym details feature]")</span>
+                <span class="method-start">113597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("As a gym owner once the details are added now i should only see the edit button", "Optional[Gym det...)</span>
+                <span class="method-start">141900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login page title", "Optional[Login page feature]")</span>
+                <span class="method-start">179835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Forgot Password link", "Optional[Login page feature]")</span>
+                <span class="method-start">185008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with correct credentials", "Optional[Login page feature]")</span>
+                <span class="method-start">190564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("As a gym owner he/she should be able to add product category", "Optional[Products feature]")</span>
+                <span class="method-start">205302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("As a gym owner he/she should be able to add a product", "Optional[Products feature]")</span>
+                <span class="method-start">232359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("As a gym owner he/she should be able to add program category", "Optional[Program feature]")</span>
+                <span class="method-start">289743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("As a gym owner he/she should be able to add a program", "Optional[Program feature]")</span>
+                <span class="method-start">326474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">383531 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
