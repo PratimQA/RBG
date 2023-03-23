@@ -63,5 +63,8 @@ public class DashboardPage {
 	} 
 	
 	
-
+    public ContactsPage contactpage() {
+    	return new ContactsPage(driver);
+    }
+	
 }

@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 30, 2022 09:17:50 PM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 23, 2023 10:00:08 am</span></a>
 </li>
 </ul>
 </div>
@@ -52,11 +52,6 @@
 <span class="ico"><i class="fa fa-list"></i></span>
 </a>
 </li>
-<li class="nav-item dropdown" onclick="toggleView('exception-view')">
-<a id="nav-exception" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bug"></i></span>
-</a>
-</li>
 </ul>
 </div>
 </div>      <div class="vcontainer">
@@ -66,25 +61,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 30, 2022 09:17:50 PM</h3>
+<h3>Mar 23, 2023 10:00:08 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 30, 2022 09:24:13 PM</h3>
+<h3>Mar 23, 2023 10:03:00 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>2</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>4</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -100,12 +95,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='33%'>
-<b>2</b> features passed
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='66%'><b>4</b> features failed,
+<small data-tooltip='0%'><b>0</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -123,9 +118,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='73%'><b>11</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='26%'><b>4</b> scenarios failed,
+<small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -143,10 +138,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='87%'><b>62</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>19</b> steps passed</small></div>
 <div>
-<small data-tooltip='5%'><b>4</b> steps failed,
-<b>5</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -162,7 +157,7 @@
 </div></div>
 <script>
 var timeline = {
-"Appointment feature":21.87,"Dashboard feature":61.006,"Gym details feature":94.693,"Login page feature":25.45,"Products feature":84.422,"Program feature":93.763
+"Contacts page feature":170.683
 };
 </script>
 <div class="row">
@@ -201,21 +196,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
-failParent: 4,
+passParent: 1,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 11,
-failChild: 4,
+passChild: 4,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 62,
-failGrandChild: 4,
+passGrandChild: 19,
+failGrandChild: 0,
 warningGrandChild: 0,
-skipGrandChild: 5,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -230,7 +225,6 @@ eventsCount: 5,
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -243,9 +237,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Appointment feature</p>
+            <p class="name">Contacts page feature</p>
             <p class="text-sm">
-              <span>21:17:52 PM</span> / <span>00:00:21:870</span>
+              <span>10:00:09 am</span> / <span>00:02:50:683</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -253,10 +247,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Appointment feature</h5>
-<span class='badge badge-success'>11.30.2022 21:17:52</span>
-<span class='badge badge-danger'>11.30.2022 21:18:14</span>
-<span class='badge badge-default'>00:00:21:870</span>
+<h5 class="test-status text-pass">Contacts page feature</h5>
+<span class='badge badge-success'>03.23.2023 10:00:09</span>
+<span class='badge badge-danger'>03.23.2023 10:03:00</span>
+<span class='badge badge-default'>00:02:50:683</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -266,30 +260,25 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Appointment Page Title</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>As a gym owner he/she should open Contact modal and check the page title</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="parallel.DashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)">
-                <span>Given user has already logged in to application</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_into_RBG_and_will_use_contacts_feature(io.cucumber.datatable.DataTable)">
+                <span>Given user into RBG and will use contacts feature</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-merchant@tier5.in</td><td>123456</td></tr></table>
       </div>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.AppointmentPageSteps.user_is_on_dashboard_page()">
-                <span>Given user is on dashboard page</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_clicks_on_the_contact_menu()">
+                <span>When user clicks on the contact menu</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.AppointmentPageSteps.user_clicks_on_appointment_section()">
-                <span>When user clicks on appointment section</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.AppointmentPageSteps.page_title_should_be_something(java.lang.String)">
-                <span>Then page title should be "Red Belt Gym - Appointment"</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.contact_page_title_should_be(java.lang.String)">
+                <span>Then contact page title should be "Red Belt Gym - Contacts"</span>
       <div>
       </div>
               </div>
@@ -299,96 +288,73 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Create Appointment</div>
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>As a gym owner he/she should not be able to send sms to a contact if the contact does not have number</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="parallel.DashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)">
-                <span>Given user has already logged in to application</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_into_RBG_and_will_use_contacts_feature(io.cucumber.datatable.DataTable)">
+                <span>Given user into RBG and will use contacts feature</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-merchant@tier5.in</td><td>123456</td></tr></table>
       </div>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.AppointmentPageSteps.user_is_on_dashboard_page()">
-                <span>Given user is on dashboard page</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_clicks_on_the_contact_menu()">
+                <span>When user clicks on the contact menu</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.AppointmentPageSteps.user_clicks_on_appointment_section()">
-                <span>When user clicks on appointment section</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_clicks_on_a_contact_having_no_number()">
+                <span>And user clicks on a contact having no number</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.AppointmentPageSteps.user_will_see_appointment_screen()">
-                <span>Then user will see appointment screen</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.contact_modal_opens_and_user_clicks_on_inbox_tab()">
+                <span>And contact modal opens and user clicks on inbox tab</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.AppointmentPageSteps.user_will_click_on_create_appointment()">
-                <span>And user will click on create appointment</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.AppointmentPageSteps.user_will_enter_the_appointment_details_and_click_on_submit()">
-                <span>Then user will enter the appointment details and click on submit</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.sms_button_should_be_disabled()">
+                <span>Then SMS button should be disabled</span>
       <div>
       </div>
               </div>
           </div>
         </div>
   </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="18"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Dashboard feature</p>
-            <p class="text-sm">
-              <span>21:18:14 PM</span> / <span>00:01:01:006</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Dashboard feature</h5>
-<span class='badge badge-success'>11.30.2022 21:18:14</span>
-<span class='badge badge-danger'>11.30.2022 21:19:15</span>
-<span class='badge badge-default'>00:01:01:006</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>Dashboard page title</div>
+        <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>As a gym owner he/she should be able to send sms to a contact if the contact has a number</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="parallel.DashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)">
-                <span>Given user has already logged in to application</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_into_RBG_and_will_use_contacts_feature(io.cucumber.datatable.DataTable)">
+                <span>Given user into RBG and will use contacts feature</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-merchant@tier5.in</td><td>123456</td></tr></table>
       </div>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.DashboardPageSteps.user_is_on_dashboard_page()">
-                <span>Given user is on Dashboard page</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_clicks_on_the_contact_menu()">
+                <span>When user clicks on the contact menu</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.DashboardPageSteps.Dashboard_page_title_should_be(java.lang.String)">
-                <span>Then Dashboard page title should be "Red Belt Gym - Dashboard"</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_clicks_on_a_contact_having_a_number()">
+                <span>And user clicks on a contact having a number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.contact_modal_opens_and_user_clicks_on_inbox_tab()">
+                <span>And contact modal opens and user clicks on inbox tab</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.sms_button_should_be_enabled()">
+                <span>Then SMS button should be enabled</span>
       <div>
       </div>
               </div>
@@ -398,650 +364,41 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Select previous month for additional revenue</div>
+        <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>As a gym owner he/she should be sble to send SMS to a contact having a number</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="parallel.DashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)">
-                <span>Given user has already logged in to application</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_into_RBG_and_will_use_contacts_feature(io.cucumber.datatable.DataTable)">
+                <span>Given user into RBG and will use contacts feature</span>
+      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-merchant@tier5.in</td><td>123456</td></tr></table>
       </div>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.DashboardPageSteps.user_is_on_dashboard_page()">
-                <span>Given user is on Dashboard page</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_clicks_on_the_contact_menu()">
+                <span>When user clicks on the contact menu</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.DashboardPageSteps.user_selects_previous_month_in_additional_revenue()">
-                <span>Then user selects previous month in additional revenue</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_clicks_on_a_contact_having_a_number()">
+                <span>And user clicks on a contact having a number</span>
       <div>
       </div>
               </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="31"><span class="badge log fail-bg mr-2">Fail</span>Select previous month for monthly recurring revenue growth</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step fail-bg" title="parallel.DashboardPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)">
-                <span>Given user has already logged in to application</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
-      </div>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='email']"}
-  (Session info: headless chrome=107.0.5304.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5CH6N67', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PRATIM\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f976068915f09818a719b6b6b91f685
-*** Element info: {Using=xpath, value=//input[@name='email']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.pages.LoginPage.doLogin(LoginPage.java:48)
-	at parallel.DashboardPageSteps.user_has_already_logged_in_to_application(DashboardPageSteps.java:34)
-	at ?.user has already logged in to application(file:///C:/Users/PRATIM/Downloads/RBG1-daily_automation/RBG1-daily_automation/RBG_Hybrid/src/test/resources/parallel/dashboardpage.feature:4)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="parallel.DashboardPageSteps.user_is_on_dashboard_page()">
-                <span>Given user is on Dashboard page</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="parallel.DashboardPageSteps.user_selects_previous_month_in_monthly_recurring_revenue()">
-                <span>Then user selects previous month in monthly recurring revenue</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="37"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Gym details feature</p>
-            <p class="text-sm">
-              <span>21:19:15 PM</span> / <span>00:01:34:693</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Gym details feature</h5>
-<span class='badge badge-success'>11.30.2022 21:19:15</span>
-<span class='badge badge-danger'>11.30.2022 21:20:50</span>
-<span class='badge badge-default'>00:01:34:693</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="38"><span class="badge log pass-bg mr-2">Pass</span>As a gym owner he/she should be able to add the gym details for first time</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_has_already_logged_in(io.cucumber.datatable.DataTable)">
-                <span>Given user has already logged in</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
-      </div>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.contact_modal_opens_and_user_clicks_on_inbox_tab()">
+                <span>And contact modal opens and user clicks on inbox tab</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_clicks_on_the_settings_icon()">
-                <span>When user clicks on the settings icon</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.user_clicks_on_SMS_button()">
+                <span>Then user clicks on SMS button</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_clicks_on_gym_details()">
-                <span>And user clicks on gym details</span>
+              <div class="step pass-bg" title="parallel.ContactPageSteps.writes_and_sends_SMS()">
+                <span>And writes and sends SMS</span>
       <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.Gym_page_title_should_be(java.lang.String)">
-                <span>Then Gym page title should be "Red Belt Gym - Gym Details"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.accordingly_user_will_click_on_edit_button()">
-                <span>And Accordingly User will click on Edit button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_will_fill_up_all_fields()">
-                <span>Then User will fill up all fields</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.finally_click_on_save()">
-                <span>And Finally click on Save</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="48"><span class="badge log fail-bg mr-2">Fail</span>Gym profile picture can be added but this not mandatory</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_has_already_logged_in(io.cucumber.datatable.DataTable)">
-                <span>Given user has already logged in</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_clicks_on_the_settings_icon()">
-                <span>When user clicks on the settings icon</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_clicks_on_gym_details()">
-                <span>And user clicks on gym details</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.accordingly_user_will_click_on_edit_button()">
-                <span>And Accordingly User will click on Edit button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="parallel.GymDetailsPageSteps.user_will_click_on_upload_and_select_any_png_or_jpg_file()">
-                <span>Then User will click on upload and select any png or jpg file</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /home/ubuntu/Tier5QA/cat.jpg
-  (Session info: headless chrome=107.0.5304.108)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5CH6N67', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PRATIM\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f5cb85107b6aee4eec2ca629c7721b3c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at com.pages.GymDetailsPage.uploadimagefile(GymDetailsPage.java:66)
-	at parallel.GymDetailsPageSteps.user_will_click_on_upload_and_select_any_png_or_jpg_file(GymDetailsPageSteps.java:106)
-	at ?.User will click on upload and select any png or jpg file(file:///C:/Users/PRATIM/Downloads/RBG1-daily_automation/RBG1-daily_automation/RBG_Hybrid/src/test/resources/parallel/gymdetailspage.feature:24)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="parallel.GymDetailsPageSteps.finally_click_on_save()">
-                <span>And Finally click on Save</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="57"><span class="badge log pass-bg mr-2">Pass</span>As a gym owner once the details are added now i should only see the edit button</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_has_already_logged_in(io.cucumber.datatable.DataTable)">
-                <span>Given user has already logged in</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_clicks_on_the_settings_icon()">
-                <span>When user clicks on the settings icon</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_clicks_on_gym_details()">
-                <span>And user clicks on gym details</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.user_must_see_the_edit_button_beside_the_name_of_the_gym()">
-                <span>Then User must see the edit button beside the name of the gym</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.accordingly_user_will_click_on_edit_button()">
-                <span>And Accordingly User will click on Edit button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.GymDetailsPageSteps.update_the_details()">
-                <span>And Update the details</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="66"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Login page feature</p>
-            <p class="text-sm">
-              <span>21:20:50 PM</span> / <span>00:00:25:450</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Login page feature</h5>
-<span class='badge badge-success'>11.30.2022 21:20:50</span>
-<span class='badge badge-danger'>11.30.2022 21:21:15</span>
-<span class='badge badge-default'>00:00:25:450</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=66</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="67"><span class="badge log pass-bg mr-2">Pass</span>Login page title</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.LoginPageSteps.user_is_on_login_page()">
-                <span>Given user is on login page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.LoginPageSteps.user_gets_the_title_of_the_page()">
-                <span>When user gets the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.LoginPageSteps.login_page_title_should_be(java.lang.String)">
-                <span>Then login page title should be "Red Belt Gym - Login"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Forgot Password link</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.LoginPageSteps.user_is_on_login_page()">
-                <span>Given user is on login page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.LoginPageSteps.forgot_your_password_link_should_be_displayed()">
-                <span>Then forgot your password link should be displayed</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>Login with correct credentials</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.LoginPageSteps.user_is_on_login_page()">
-                <span>Given user is on login page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.LoginPageSteps.user_enters_username(java.lang.String)">
-                <span>When user enters username "test-pratim@gmail.com"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.LoginPageSteps.user_enters_password(java.lang.String)">
-                <span>And user enters password "123456"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.LoginPageSteps.user_clicks_on_login_button()">
-                <span>And user clicks on Login button</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="85"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Products feature</p>
-            <p class="text-sm">
-              <span>21:21:15 PM</span> / <span>00:01:24:422</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Products feature</h5>
-<span class='badge badge-success'>11.30.2022 21:21:15</span>
-<span class='badge badge-danger'>11.30.2022 21:22:39</span>
-<span class='badge badge-default'>00:01:24:422</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=85</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="86"><span class="badge log pass-bg mr-2">Pass</span>As a gym owner he/she should be able to add product category</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.ProductPageSteps.user_already_logged_in(io.cucumber.datatable.DataTable)">
-                <span>Given user into RBG</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProductPageSteps.user_clicks_on_the_settings_icon()">
-                <span>When user clicks on the settings</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProductPageSteps.user_clicks_on_products_label()">
-                <span>And user clicks on products label</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProductPageSteps.products_page_title_should_be_something(java.lang.String)">
-                <span>Then products page title should be "Red Belt Gym - Products"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProductPageSteps.user_will_enter_a_category()">
-                <span>And user will enter a category</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProductPageSteps.product_category_will_be_added()">
-                <span>Then product category will be added</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="95"><span class="badge log fail-bg mr-2">Fail</span>As a gym owner he/she should be able to add a product</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.ProductPageSteps.user_already_logged_in(io.cucumber.datatable.DataTable)">
-                <span>Given user into RBG</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProductPageSteps.user_clicks_on_the_settings_icon()">
-                <span>When user clicks on the settings</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProductPageSteps.user_clicks_on_products_label()">
-                <span>And user clicks on products label</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProductPageSteps.user_will_click_on_Add_a_Product_button()">
-                <span>Then user will click on Add a Product button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="parallel.ProductPageSteps.enter_details_to_add_product()">
-                <span>And enter details to add product</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /home/ubuntu/Tier5QA/cat.jpg
-  (Session info: headless chrome=107.0.5304.108)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5CH6N67', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PRATIM\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 126e13fbc0f1b3ac06a9216f5cf6cf99
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at com.pages.ProductPage.enterproddetails(ProductPage.java:109)
-	at parallel.ProductPageSteps.enter_details_to_add_product(ProductPageSteps.java:107)
-	at ?.enter details to add product(file:///C:/Users/PRATIM/Downloads/RBG1-daily_automation/RBG1-daily_automation/RBG_Hybrid/src/test/resources/parallel/productspage.feature:22)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="parallel.ProductPageSteps.save_the_product_details()">
-                <span>And save the product details</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="104"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Program feature</p>
-            <p class="text-sm">
-              <span>21:22:39 PM</span> / <span>00:01:33:763</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Program feature</h5>
-<span class='badge badge-success'>11.30.2022 21:22:39</span>
-<span class='badge badge-danger'>11.30.2022 21:24:13</span>
-<span class='badge badge-default'>00:01:33:763</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=104</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>As a gym owner he/she should be able to add program category</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.user_into_rbg_and_will_check_program_feature(io.cucumber.datatable.DataTable)">
-                <span>Given user into RBG and will check program feature</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.user_clicks_on_the_settings()">
-                <span>When user clicks on the gen settings</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.user_clicks_on_products_label()">
-                <span>And user clicks on program label</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.program_page_title_should_be_something(java.lang.String)">
-                <span>Then program page title should be "Red Belt Gym - Courses"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.user_will_enter_a_category()">
-                <span>And user will enter a course category</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.program_category_will_be_added()">
-                <span>Then program category will be added</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="114"><span class="badge log fail-bg mr-2">Fail</span>As a gym owner he/she should be able to add a program</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.user_into_rbg_and_will_check_program_feature(io.cucumber.datatable.DataTable)">
-                <span>Given user into RBG and will check program feature</span>
-      <div><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>test-pratim@gmail.com</td><td>123456</td></tr></table>
-      </div>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.user_clicks_on_the_settings()">
-                <span>When user clicks on the gen settings</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.user_clicks_on_products_label()">
-                <span>And user clicks on program label</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="parallel.ProgramPageSteps.user_will_click_on_add_a_program_button()">
-                <span>Then user will click on Add a Program button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="parallel.ProgramPageSteps.enter_details_to_add_program()">
-                <span>And enter details to add program</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /home/ubuntu/Tier5QA/cat.jpg
-  (Session info: headless chrome=107.0.5304.108)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5CH6N67', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\PRATIM\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c337717ee4052e99afa7cb2820f111d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at com.pages.ProgramPage.entercoursedetails(ProgramPage.java:111)
-	at parallel.ProgramPageSteps.enter_details_to_add_program(ProgramPageSteps.java:117)
-	at ?.enter details to add program(file:///C:/Users/PRATIM/Downloads/RBG1-daily_automation/RBG1-daily_automation/RBG_Hybrid/src/test/resources/parallel/programpage.feature:22)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="parallel.ProgramPageSteps.save_the_program_details()">
-                <span>And save the program details</span>
-      <div>Step skipped
       </div>
               </div>
           </div>
@@ -1059,115 +416,7 @@ Session ID: 2c337717ee4052e99afa7cb2820f111d
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view exception-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">org.openqa.selenium.InvalidArgumentException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.InvalidArgumentException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>21:20:10 PM</td>
-<td>
-<a href="#" class="linked" test-id='37' id='55'>Then User will click on upload and select any png or jpg file</a>
-<div class="">
-<span class="badge badge-default">Gym details feature.Gym profile picture can be added but this not mandatory.Then User will click on upload and select any png or jpg file</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>21:22:09 PM</td>
-<td>
-<a href="#" class="linked" test-id='85' id='102'>And enter details to add product</a>
-<div class="">
-<span class="badge badge-default">Products feature.As a gym owner he/she should be able to add a product.And enter details to add product</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>21:23:43 PM</td>
-<td>
-<a href="#" class="linked" test-id='104' id='121'>And enter details to add program</a>
-<div class="">
-<span class="badge badge-default">Program feature.As a gym owner he/she should be able to add a program.And enter details to add program</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>21:19:13 PM</td>
-<td>
-<a href="#" class="linked" test-id='18' id='34'>Given user has already logged in to application</a>
-<div class="">
-<span class="badge badge-default">Dashboard feature.Select previous month for monthly recurring revenue growth.Given user has already logged in to application</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div>        </div>
+        </div>
       </div>
     </div>
   </div>

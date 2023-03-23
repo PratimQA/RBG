@@ -20,17 +20,19 @@ public class DriverFactory {
 		if(browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			//tlDriver.set(new ChromeDriver());
-			ChromeOptions options = new ChromeOptions();
-			options.setHeadless(true);
-			options.addArguments("--no-sandbox");
-			options.addArguments("--disable-dev-shm-usage");
-			options.addArguments("--window-size=1920,1080");
-			options.addArguments("--start-maximized");
-			tlDriver.set(new ChromeDriver(options));
-			//tlDriver.set(new ChromeDriver());
+//			ChromeOptions options = new ChromeOptions();
+//			options.setHeadless(true);
+//			options.addArguments("--no-sandbox");
+//			options.addArguments("--disable-dev-shm-usage");
+//			options.addArguments("--window-size=1920,1080");
+//			options.addArguments("--start-maximized");
+//			tlDriver.set(new ChromeDriver(options));
+			tlDriver.set(new ChromeDriver());
 		}
-		else if(browser.equals("chrome")) {
-		WebDriverManager.firefoxdriver().setup();
+		else if(browser.equals("firefox")) {
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\PRATIM\\eclipse-workspace\\RBG_Hybrid\\RBG_Hybrid\\Drivers\\geckodriver.exe");	
+		driver = new FirefoxDriver();
+		//WebDriverManager.firefoxdriver().setup();
 		tlDriver.set(new FirefoxDriver());
 		}
 		else {
